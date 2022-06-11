@@ -16,6 +16,10 @@ body{
     margin: auto;
     width: 500px;
 }
+
+.countdown-title{
+    font-size: 1.2rem
+}
 .timer{
      display: flex;
 }
