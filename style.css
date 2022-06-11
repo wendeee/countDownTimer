@@ -16,7 +16,9 @@ body{
     margin: auto;
     width: 500px;
 }
-
+.timer{
+     display: flex;
+}
 .reading{
     font-size: .8em;
 }
