@@ -8,7 +8,7 @@ let seconds = document.querySelector('.Seconds')
         setInterval(countDownTimer, 1000)
 
         function countDownTimer(){
-            const endDate = new Date('April 16, 2022 00:00:00').getTime();
+            const endDate = new Date('December 31, 2022 00:00:00').getTime();
             const currentDate = new Date().getTime();
 
             let distance = endDate - currentDate;
