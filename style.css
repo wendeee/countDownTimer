@@ -22,6 +22,8 @@ body{
 }
 .timer{
      display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
 }
 .reading{
     font-size: .8em;
