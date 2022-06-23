@@ -5,18 +5,23 @@
 }
 body{
     min-height: 100vh;
-    background-color: blueviolet;
+    background-image: url(../countDownTimer/christmas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     margin: auto;
+    text-align: center;
     width: 500px;
 }
 
+.container{
+    border: 1px solid black;
+    margin-top: 10rem;
+    background-color: black;
+    padding: 3rem;
+}
 .countdown-title{
     font-size: 1.2rem
 }
